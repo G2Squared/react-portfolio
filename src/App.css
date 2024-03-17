@@ -1,0 +1,102 @@
+/* Navbar styles */
+.navbar {
+    font-size: 24px;
+    margin-left: auto;
+    padding: 20px;
+    background: #03045eff; /* Federal Blue */
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* Body styles */
+body {
+    background-image: linear-gradient(to right, #023e8aff, #0077b6ff); /* Marian Blue to Honolulu Blue */
+}
+
+/* Header and footer styles */
+header,
+footer {
+    background: linear-gradient(to right, #03045eff, #023e8aff); /* Federal Blue to Marian Blue */
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+}
+
+/* Main content styles */
+main {
+    background: linear-gradient(#03045eff, #023e8aff); /* Federal Blue to Marian Blue */
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Link styles */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hover effect for links */
+a:hover {
+    color: #0096c7ff; /* Blue Green */
+}
+
+/* Active link styles */
+.activeLink {
+    color: #00b4d8ff; /* Pacific Cyan */
+}
+
+/* Main content heading styles */
+main h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Main content paragraph styles */
+main p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Form container styles */
+.formDiv {
+    border-radius: 10px;
+    background-color: #caf0f8ff; /* Light Cyan */
+    padding: 20px;
+    color: black;
+    margin-top: 20px;
+}
+
+/* Input and textarea styles */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #00b4d8ff; /* Pacific Cyan */
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    width: 100%;
+    background-color: #48cae4ff; /* Vivid Sky Blue */
+    color: white;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+    background-color: #90e0efff; /* Non-Photo Blue */
+}
