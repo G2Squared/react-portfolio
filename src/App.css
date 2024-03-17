@@ -1,13 +1,39 @@
 /* Navbar styles */
 .navbar {
-    font-size: 24px;
+    font-size: 30px;
     margin-left: auto;
     padding: 20px;
     background: #03045eff; /* Federal Blue */
     border-radius: 20px;
-    display: flex;
+    display: flex; /* Use flexbox */
     align-items: center;
     justify-content: flex-end;
+}
+
+/* Remove bullet points from navbar links */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox */
+}
+
+/* Style navbar links */
+.navbar ul li {
+    margin-left: 20px; /* Add spacing between navbar links */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px; /* Add padding to increase clickable area */
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+}
+
+/* Hover effect for navbar links */
+.navbar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Add transparent background on hover */
 }
 
 /* Body styles */
@@ -22,7 +48,33 @@ footer {
     border-radius: 20px;
     padding: 20px;
     color: white;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center align content horizontally */
+    align-items: center; /* Center align content vertically */
 }
+
+/* Remove bullets from footer */
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style footer links */
+footer a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px; /* Add spacing between footer links */
+    padding: 10px 15px; /* Add padding to increase clickable area */
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+}
+
+/* Hover effect for footer links */
+footer a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Add transparent background on hover */
+}
+
 
 /* Main content styles */
 main {
